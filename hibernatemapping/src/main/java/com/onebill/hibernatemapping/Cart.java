@@ -17,7 +17,7 @@ public class Cart {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
-	@OneToMany(cascade = CascadeType.PERSIST, mappedBy = "cart")
+	@OneToMany(cascade = CascadeType.PERSIST)
 	private List<Item> item;
 	
 	public Cart() {

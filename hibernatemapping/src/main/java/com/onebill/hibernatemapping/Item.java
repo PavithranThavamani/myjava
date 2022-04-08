@@ -2,7 +2,7 @@ package com.onebill.hibernatemapping;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.ManyToOne;
+//import javax.persistence.ManyToOne;
 
 @Entity
 public class Item {
@@ -14,7 +14,7 @@ public class Item {
 	private double productPrice;
 	private int quantity;
 	private int productRating;
-	@ManyToOne
+	
 	private Cart cart;
 	public Item() {
 		super();

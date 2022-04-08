@@ -9,7 +9,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Laptop laptop = new Laptop(109, "Dell Alienware", "Dell Battery", "2TB");
+		Laptop laptop = new Laptop(107, "Dell Alienware", "Dell Battery", "2TB");
 		Trainee trainee = new Trainee( "Me", "Developer", 50000, laptop);
 		laptop.setTrainee(trainee);
 		
